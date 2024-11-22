@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* Estilo general para la página */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F5F5F5; /* Fondo oscuro elegante */
+    color: #34495E; /* Texto claro */
+    line-height: 1.6;
+}
+
+header {
+    background: #2C3E50; /* Fondo más oscuro para el encabezado */
+    padding: 10px 0;
+    border-bottom: 2px solid #FFD700; /* Línea decorativa dorada */
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end; /* Mueve el contenido a la derecha */
+    margin: 0;
+    text-align: right; /* Alinea el texto a la derecha */
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    left: 500px;
+    list-style: none;
+    left: 900px;
+}
+
+.navbar ul li {
+    list-style: none;
+    left: 900px;
+}
+.navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    display: block;  
+    line-height: 2; 
+} /*Color del menu*/
+
+.navbar ul li a:hover {
+    color: #FFD700;
+} /*Color cuando se pasa el cursor por los botones*/
+
+/* Sección principal */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    background-color: #F5F5F5;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.main-title {
+    font-size: 3rem;
+    color: #2C3E50;
+}
+
+.main-subtitle {
+    font-size: 1.5rem;
+    color: #34495E;
+}
+
+.btn {
+    background-color: #E74C3C;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #C0392B;
+}
+
+.image-section .feature-image {
+    width: 150%;
+    border-radius: 0.5rem;
+}
+
+/* Footer */
+.footer {
+    background: #2C3E50; /* Fondo oscuro */
+    color: #EAEAEA; /* Texto claro */
+    padding: 20px 0; /* Aumenta el espacio para más contenido */
+    border-top: 2px solid #FFD700; /* Línea decorativa */
+    width: 100%;
+    text-align: center;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section:last-child {
+    margin-right: 0;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #FF5A2C;
+}
+
+.social-media-icons img {
+    width: 60px;
+    height: 50px;
+    margin-right: 0px;
+    transition: transform 0.3s;
+}
+
+.social-media-icons img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background: #1F1F1F;
+    color: #EAEAEA;
+    padding: 20px 0;
+    border-top: 2px solid #FFD700; /* Línea decorativa */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+} /*hasta aqui el encabezado de abajo*/
+
+
+
+</style>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+            </div>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="MISION.html">Sobre Nosotros</a></li>
+                    <li><a href="donate.html">Descargar</a></li>
+                    <li><a href="Registro.html">Registrarse</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main-container">
+            <div class="text-section">
+                <h1 class="main-title">PODEMOS HACERLO</h1>
+                <p class="main-subtitle">¡Registrate para poder ser parte de nosotros como donador o poder solicitar ayuda!</p>
+                <a href="Registro.html" class="btn">Registrarse</a>
+            </div>
+            <div class="image-section">
+                <img src="image-removebg-preview (2) (1).png" alt="Main Feature Image" class="feature-image">
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="social-media-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://st2.depositphotos.com/1144386/7770/v/450/depositphotos_77705008-stock-illustration-original-round-blue-facebook-web.jpg" alt="Facebook" class="icon">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank">
+                <img src="https://static.vecteezy.com/system/resources/previews/014/018/572/non_2x/tiktok-logo-on-transparent-background-free-vector.jpg" alt="TikTok" class="icon">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://img.freepik.com/vector-gratis/icono-redes-sociales-vector-instagram-7-junio-2021-bangkok-tailandia_53876-136728.jpg" alt="Instagram" class="icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetivos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F5F5F5; /* Fondo oscuro elegante */
+    color: #34495E; /* Texto claro */
+    line-height: 1.6;
+}
+
+header {
+    background: #2C3E50; /* Fondo más oscuro para el encabezado */
+    padding: 10px 0;
+    border-bottom: 2px solid #FFD700; /* Línea decorativa dorada */
+    align-items: center;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+} /*Posicion del Menu (Inicio, Objetivos, etc)*/
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    left: 500px;
+    list-style: none;
+    left: 900px;
+}
+
+.navbar ul li {
+    list-style: none;
+    left: 900px;
+}
+.navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    display: block;  
+    line-height: 2; 
+} /*Color del menu*/
+
+.navbar ul li a:hover {
+    color: #FFD700;
+} /*Color cuando se pasa el cursor por los botones*/
+
+.mision-vision {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.mision-vision h2 {
+    color: #34495E;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.mision-vision p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+} /*Contenido de la pagina (Cuadro de mision y vision*/
+
+footer {
+    background: #2C3E50; /* Fondo oscuro */
+    color: #EAEAEA; /* Texto claro */
+    padding: 10px 0; /* Reducir el padding para hacer el footer más pequeño */
+    border-top: 2px solid #FFD700; /* Línea decorativa */
+    width: 100%; /* Asegurar que cubra todo el ancho de la pantalla */
+    text-align: center; /* Centrar texto dentro del footer */
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap; /* Permite que el contenido se ajuste en pantallas más pequeñas */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Para limitar el ancho del contenido */
+    margin: 0 auto;
+    padding: 0 10px; /* Reducir padding lateral */
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px; /* Espaciado entre secciones */
+    min-width: 150px; /* Asegurar que no colapsen demasiado en pantallas pequeñas */
+}
+
+.footer-bottom {
+    font-size: 14px; /* Reducir el tamaño del texto */
+    margin-top: 10px; /* Espaciado inferior */
+}
+.image-section .feature-image {
+    width: 100%; /* Ajusta el tamaño de la imagen */
+    max-width: 400px; /* Limita el ancho máximo de la imagen */
+    border-radius: 0.5rem;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+
+.menu .navbar ul li {
+position: relative;
+float: left;
+/*Posicion menu*/
+
+}
+</style>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="INICIO.html">Inicio</a></li>
+                    <li><a href="#mision-vision">Sobre nosotros</a></li>
+                    <li><a href="Clases.html">Descargar</a></li>
+                    <li><a href="Registro.html">Registrarse</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="mision-vision" class="mision-vision">
+            <h2>Misión</h2>
+            <p>Facilitar la redistribución eficiente de excedentes alimenticios mediante una plataforma digital que conecte empresas y organizaciones sociales, reduciendo el desperdicio de alimentos y promoviendo la responsabilidad social empresarial para contribuir al bienestar de las comunidades vulnerables.</p>
+
+            <h2>Visión</h2>
+            <p>Convertirse en la plataforma líder en donaciones alimenticias, reconocida por su impacto en la reducción del desperdicio de alimentos y su contribución a un futuro más sostenible y equitativo, donde ninguna comunidad carezca de acceso a alimentos esenciales.</p>
+        </section>
+    </main>
+    <div class="image-section">
+        <img src="image-removebg-preview (2) (1).png" alt="Main Feature Image" class="feature-image">
+    </div>
+
+    <footer class="footer container">
+        <div class="footer-top">
+           
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FOOD 4 LIFE. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
